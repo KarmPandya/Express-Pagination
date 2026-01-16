@@ -1,0 +1,30 @@
+{
+  "name": "express-pagination",
+  "version": "1.0.0",
+  "description": "A professional backend project that demonstrates **pagination implementation** for REST APIs.  \r This repository focuses on handling large datasets efficiently using pagination techniques commonly used in real-world backend systems.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarmPandya/Express-Pagination.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarmPandya/Express-Pagination/issues"
+  },
+  "homepage": "https://github.com/KarmPandya/Express-Pagination#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.1.4",
+    "nodemon": "^3.1.11"
+  }
+}
